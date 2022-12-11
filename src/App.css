@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,31 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
+body{
+  background: rgb(218, 210, 210);
+}
+.main{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.main .left{
+  position: relative;
+  width: 70%;
+  margin-bottom: 90px;
+}
+.main .right{
+  position: relative;
+  width: 30%;
+  padding: 0 40px;
+  background: #fff;
+  height: auto;
+}
+

@@ -1,0 +1,17 @@
+.container{
+  height: 15%;
+  position: relative;
+  left: 4%;
+  top: 5%;
+}
+.container h1{
+    font-size: 2em;
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.container h3{
+    font-size: 1.4em;
+    font-weight: 400;
+}
+
